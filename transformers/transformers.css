@@ -1,0 +1,36 @@
+/* .element {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+} */
+
+.rotate-by-deg {
+  transform: rotate(45deg);
+}
+
+.rotate-by-rad {
+  transform: rotate(-1rad);
+}
+
+.rotate-by-turn {
+  transform: rotate(0.3turn);
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+img {
+  width: 60px;
+}
+
+div,
+* + p {
+  margin-top: 1.5rem;
+}
